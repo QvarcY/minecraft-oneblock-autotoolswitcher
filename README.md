@@ -15,9 +15,9 @@
 
 > Lightweight client-side Fabric mod for OneBlock players who are tired of doing pickaxe → axe → shovel → pickaxe gymnastics every few seconds
 
-**Current development target:** Minecraft 26.2 · Fabric Loader 0.19.5+ · Java 25
+**Available builds:** Minecraft 26.2 and Minecraft 26.3 · Fabric Loader 0.19.5+ · Java 25
 
-Minecraft 26.2 has been validated on a real multiplayer OneBlock server · Minecraft 26.3 support is planned as a separate compatible build
+Minecraft 26.2 has been validated on a real multiplayer OneBlock server · Minecraft 26.3 has a verified compatible build and will be multiplayer-tested when suitable servers update
 
 ## Demo
 
@@ -84,8 +84,8 @@ Mods izvēlēsies piemērotāko rīku no hotbar
 
 ### Atbalstītās Minecraft versijas
 
-- ✅ Minecraft 26.2 — pašreizējais primārais un testējamais builds
-- 🕒 Minecraft 26.3 — plānots atsevišķs saderīgs builds pēc 26.2 pārbaudes uz reāla OneBlock servera
+- ✅ Minecraft 26.2 — pieejams builds un pārbaudīts reālā multiplayer OneBlock serverī
+- ✅ Minecraft 26.3 — pieejams saderīgs builds un pārbaudīts ar CI build testu
 
 ### Vadība
 
@@ -174,8 +174,8 @@ The mod will choose the most suitable hotbar tool automatically
 
 ### Supported Minecraft versions
 
-- ✅ Minecraft 26.2 — current primary and testable build
-- 🕒 Minecraft 26.3 — planned as a separate compatible build after the 26.2 version is validated on a real OneBlock server
+- ✅ Minecraft 26.2 — available build validated on a real multiplayer OneBlock server
+- ✅ Minecraft 26.3 — available compatible build verified by CI
 
 ### Controls
 
