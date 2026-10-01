@@ -4,6 +4,8 @@ All notable changes to Minecraft OneBlock AutoToolSwitcher will be documented he
 
 ## [Unreleased]
 
+## [1.0.0] - 2026-10-01
+
 ### Available builds
 
 - Minecraft 26.2 build with real multiplayer OneBlock validation
@@ -16,8 +18,8 @@ All notable changes to Minecraft OneBlock AutoToolSwitcher will be documented he
 
 ### Changed
 
-- Retargeted the first testable release from Minecraft 26.3 to Minecraft 26.2
-- Kept Minecraft 26.3 as a planned follow-up compatible build
+- Added separate compatible release builds for Minecraft 26.2 and Minecraft 26.3
+- Kept Minecraft 26.2 as the real multiplayer validation target while servers remain on 26.2
 
 ### Added
 
