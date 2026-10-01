@@ -2,7 +2,7 @@ name: build
 
 on:
   push:
-    branches: [main]
+    branches: [release/mc26.3]
   pull_request:
     branches: [main]
 
@@ -32,5 +32,5 @@ jobs:
       - name: Upload JAR
         uses: actions/upload-artifact@v4
         with:
-          name: minecraft-oneblock-autotoolswitcher-mc26.2
+          name: minecraft-oneblock-autotoolswitcher-mc26.3
           path: build/libs/*.jar
