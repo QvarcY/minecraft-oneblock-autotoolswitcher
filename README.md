@@ -62,7 +62,12 @@ Lejupielādē Fabric API versiju kas paredzēta Minecraft 26.2 un ievieto to `mo
 
 #### 3. Lejupielādē AutoToolSwitcher
 
-No GitHub Releases lejupielādē jaunāko `minecraft-oneblock-autotoolswitcher-*.jar`
+No GitHub Releases lejupielādē savai Minecraft versijai atbilstošo failu
+
+- Minecraft 26.2 → `minecraft-oneblock-autotoolswitcher-1.0.0+mc26.2.jar`
+- Minecraft 26.3 → `minecraft-oneblock-autotoolswitcher-1.0.0+mc26.3.jar`
+
+Nelieto `-sources.jar` failu
 
 #### 4. Ievieto mod failu Minecraft `mods` mapē
 
@@ -152,7 +157,12 @@ Download the Fabric API build for Minecraft 26.2 and place it in your `mods` fol
 
 #### 3. Download AutoToolSwitcher
 
-Download the latest `minecraft-oneblock-autotoolswitcher-*.jar` from GitHub Releases
+Download the file that matches your Minecraft version from GitHub Releases
+
+- Minecraft 26.2 → `minecraft-oneblock-autotoolswitcher-1.0.0+mc26.2.jar`
+- Minecraft 26.3 → `minecraft-oneblock-autotoolswitcher-1.0.0+mc26.3.jar`
+
+Do not use the `-sources.jar` file
 
 #### 4. Put the mod in your Minecraft `mods` folder
 
