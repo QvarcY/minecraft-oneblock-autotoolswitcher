@@ -32,5 +32,5 @@ jobs:
       - name: Upload JAR
         uses: actions/upload-artifact@v4
         with:
-          name: minecraft-oneblock-autotoolswitcher
+          name: minecraft-oneblock-autotoolswitcher-mc26.2
           path: build/libs/*.jar
