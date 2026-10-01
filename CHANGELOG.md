@@ -4,6 +4,11 @@ All notable changes to Minecraft OneBlock AutoToolSwitcher will be documented he
 
 ## [Unreleased]
 
+### Validated
+
+- Confirmed automatic pickaxe axe and shovel switching on a real Minecraft 26.2 multiplayer OneBlock server
+- Confirmed the V toggle works in multiplayer
+
 ### Changed
 
 - Retargeted the first testable release from Minecraft 26.3 to Minecraft 26.2
