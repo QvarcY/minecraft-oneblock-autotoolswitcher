@@ -1,6 +1,17 @@
-# Minecraft OneBlock AutoToolSwitcher by QvarcY
+<p align="center">
+  <img src="assets/readme-hero.svg" alt="Minecraft OneBlock AutoToolSwitcher by QvarcY" width="100%">
+</p>
 
-[Latviski](#latviski) · [English](#english)
+<p align="center">
+  <a href="https://github.com/QvarcY/minecraft-oneblock-autotoolswitcher/actions/workflows/build.yml"><img alt="Build" src="https://github.com/QvarcY/minecraft-oneblock-autotoolswitcher/actions/workflows/build.yml/badge.svg"></a>
+  <a href="https://github.com/QvarcY/minecraft-oneblock-autotoolswitcher/blob/main/LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-22c55e"></a>
+  <a href="https://buymeacoffee.com/craftin"><img alt="Buy Me a Coffee" src="https://img.shields.io/badge/Buy_Me_a_Coffee-support-FFDD00?logo=buymeacoffee&logoColor=000"></a>
+  <a href="https://github.com/sponsors/QvarcY"><img alt="GitHub Sponsors" src="https://img.shields.io/badge/GitHub_Sponsors-support-EA4AAA?logo=githubsponsors&logoColor=fff"></a>
+</p>
+
+<p align="center">
+  <a href="#latviski">Latviski</a> · <a href="#english">English</a>
+</p>
 
 > Lightweight client-side Fabric mod for OneBlock players who are tired of doing pickaxe → axe → shovel → pickaxe gymnastics every few seconds
 
@@ -87,9 +98,9 @@ build\libs
 
 ### Atbalsti projektu
 
-- ☕ **Buy Me a Coffee** — saite tiks pievienota pirms pirmās publiskās relīzes
-- ❤️ **Supporter** — saite tiks pievienota pirms pirmās publiskās relīzes
-- 🐙 **QvarcY GitHub** — https://github.com/QvarcY
+- ☕ **[Buy Me a Coffee](https://buymeacoffee.com/craftin)** — atbalsti projekta turpmāku izstrādi
+- ❤️ **[GitHub Sponsors](https://github.com/sponsors/QvarcY)** — atbalsti QvarcY open-source projektus
+- 🐙 **[QvarcY GitHub](https://github.com/QvarcY)** — citi projekti un eksperimenti
 
 ---
 
@@ -172,9 +183,9 @@ build\libs
 
 ### Support the project
 
-- ☕ **Buy Me a Coffee** — link will be added before the first public release
-- ❤️ **Supporter** — link will be added before the first public release
-- 🐙 **QvarcY on GitHub** — https://github.com/QvarcY
+- ☕ **[Buy Me a Coffee](https://buymeacoffee.com/craftin)** — support continued development
+- ❤️ **[GitHub Sponsors](https://github.com/sponsors/QvarcY)** — support QvarcY's open-source work
+- 🐙 **[QvarcY on GitHub](https://github.com/QvarcY)** — more projects and experiments
 
 ---
 
