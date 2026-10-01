@@ -22,7 +22,7 @@ public final class OneBlockAutoToolSwitcherClient implements ClientModInitialize
     private final KeyMapping toggleKey = KeyMappingHelper.registerKeyMapping(
         new KeyMapping(
             "key.oneblock_autotoolswitcher.toggle",
-            InputConstants.Type.KEYSYM,
+            InputConstants.Type.KEYBOARD,
             InputConstants.KEY_V,
             category
         )
