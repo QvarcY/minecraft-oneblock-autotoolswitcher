@@ -4,6 +4,11 @@ All notable changes to Minecraft OneBlock AutoToolSwitcher will be documented he
 
 ## [Unreleased]
 
+### Available builds
+
+- Minecraft 26.2 build with real multiplayer OneBlock validation
+- Minecraft 26.3 compatible build with successful CI validation
+
 ### Validated
 
 - Confirmed automatic pickaxe axe and shovel switching on a real Minecraft 26.2 multiplayer OneBlock server
