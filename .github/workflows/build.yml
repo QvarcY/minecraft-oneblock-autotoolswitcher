@@ -2,7 +2,7 @@ name: build
 
 on:
   push:
-    branches: [main]
+    branches: [release/mc26.2]
   pull_request:
     branches: [main]
 
