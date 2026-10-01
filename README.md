@@ -19,6 +19,17 @@
 
 Minecraft 26.2 has been validated on a real multiplayer OneBlock server · Minecraft 26.3 has a verified compatible build and will be multiplayer-tested when suitable servers update
 
+## Download
+
+| Minecraft | Build | Status | Download |
+| --- | --- | --- | --- |
+| **26.2** | `1.0.0+mc26.2` | Real multiplayer OneBlock tested | **[Download JAR](https://github.com/QvarcY/minecraft-oneblock-autotoolswitcher/releases/download/v1.0.0/minecraft-oneblock-autotoolswitcher-1.0.0%2Bmc26.2.jar)** |
+| **26.3** | `1.0.0+mc26.3` | CI verified | **[Download JAR](https://github.com/QvarcY/minecraft-oneblock-autotoolswitcher/releases/download/v1.0.0/minecraft-oneblock-autotoolswitcher-1.0.0%2Bmc26.3.jar)** |
+
+> Download **only the JAR that matches your Minecraft version**. Do not put both AutoToolSwitcher JARs in the same `mods` folder.
+
+[View the full v1.0.0 release](https://github.com/QvarcY/minecraft-oneblock-autotoolswitcher/releases/tag/v1.0.0)
+
 ## Demo
 
 **LV:** Reāls Minecraft 26.2 multiplayer OneBlock tests — AutoToolSwitcher automātiski pārslēdzas starp piemērotāko pickaxe axe un shovel kamēr uzbrukuma poga paliek nospiesta
@@ -50,26 +61,28 @@ Tas radīts OneBlock spēles režīmam kur viens un tas pats bloks nepārtraukti
 - darbojas tikai klienta pusē
 - ar `V` var ieslēgt vai izslēgt automātisko pārslēgšanu
 
-### Uzstādīšana
+### Ātrā uzstādīšana
 
-#### 1. Uzstādi Fabric Loader
+#### 1. Izvēlies savu Minecraft versiju
 
-Uzstādi Fabric Loader Minecraft 26.2 versijai
+- **Minecraft 26.2** → [lejupielādē 26.2 JAR](https://github.com/QvarcY/minecraft-oneblock-autotoolswitcher/releases/download/v1.0.0/minecraft-oneblock-autotoolswitcher-1.0.0%2Bmc26.2.jar)
+- **Minecraft 26.3** → [lejupielādē 26.3 JAR](https://github.com/QvarcY/minecraft-oneblock-autotoolswitcher/releases/download/v1.0.0/minecraft-oneblock-autotoolswitcher-1.0.0%2Bmc26.3.jar)
 
-#### 2. Uzstādi Fabric API
+Izmanto tikai savai Minecraft versijai paredzēto AutoToolSwitcher JAR. **Neliec abus AutoToolSwitcher JAR vienā `mods` mapē.**
 
-Lejupielādē Fabric API versiju kas paredzēta Minecraft 26.2 un ievieto to `mods` mapē
+#### 2. Uzstādi Fabric
 
-#### 3. Lejupielādē AutoToolSwitcher
+Tai pašai Minecraft versijai uzstādi:
 
-No GitHub Releases lejupielādē savai Minecraft versijai atbilstošo failu
+- Fabric Loader **0.19.5 vai jaunāku**
+- Fabric API, kas paredzēts tieši tavai Minecraft versijai
 
-- Minecraft 26.2 → `minecraft-oneblock-autotoolswitcher-1.0.0+mc26.2.jar`
-- Minecraft 26.3 → `minecraft-oneblock-autotoolswitcher-1.0.0+mc26.3.jar`
+#### 3. Ievieto failus `mods` mapē un palaid spēli
 
-Nelieto `-sources.jar` failu
+`mods` mapē jābūt:
 
-#### 4. Ievieto mod failu Minecraft `mods` mapē
+- Fabric API JAR
+- vienam AutoToolSwitcher JAR tavai Minecraft versijai
 
 Windows noklusētais ceļš parasti ir
 
@@ -77,15 +90,11 @@ Windows noklusētais ceļš parasti ir
 %AppData%\.minecraft\mods
 ```
 
-Ja `mods` mapes nav izveido to pats
+Ja izmanto launcher ar atsevišķām instancēm, izmanto konkrētās instances `mods` mapi.
 
-Ja izmanto atsevišķu launcher profilu vai citu launcher tad izmanto konkrētās instances `mods` mapi
+Palaid Minecraft ar Fabric profilu, ieliec piemērotos rīkus hotbar un turi nospiestu kreiso peles pogu uz bloka. AutoToolSwitcher izvēlēsies piemērotāko rīku automātiski.
 
-#### 5. Palaid Minecraft ar Fabric profilu
-
-Atver pasauli vai OneBlock serveri un turi nospiestu kreiso peles pogu uz bloka
-
-Mods izvēlēsies piemērotāko rīku no hotbar
+Ja spēle startā ziņo par nesaderīgu modu, vispirms pārbaudi, vai AutoToolSwitcher JAR, Fabric API un Minecraft versija savā starpā sakrīt.
 
 ### Atbalstītās Minecraft versijas
 
@@ -145,26 +154,28 @@ It was built for OneBlock where the same block keeps turning into completely dif
 - runs entirely on the client
 - press `V` to toggle automatic switching
 
-### Installation
+### Quick installation
 
-#### 1. Install Fabric Loader
+#### 1. Choose your Minecraft version
 
-Install Fabric Loader for Minecraft 26.2
+- **Minecraft 26.2** → [download the 26.2 JAR](https://github.com/QvarcY/minecraft-oneblock-autotoolswitcher/releases/download/v1.0.0/minecraft-oneblock-autotoolswitcher-1.0.0%2Bmc26.2.jar)
+- **Minecraft 26.3** → [download the 26.3 JAR](https://github.com/QvarcY/minecraft-oneblock-autotoolswitcher/releases/download/v1.0.0/minecraft-oneblock-autotoolswitcher-1.0.0%2Bmc26.3.jar)
 
-#### 2. Install Fabric API
+Use only the AutoToolSwitcher JAR built for your Minecraft version. **Do not put both AutoToolSwitcher JARs in the same `mods` folder.**
 
-Download the Fabric API build for Minecraft 26.2 and place it in your `mods` folder
+#### 2. Install Fabric
 
-#### 3. Download AutoToolSwitcher
+For the same Minecraft version install:
 
-Download the file that matches your Minecraft version from GitHub Releases
+- Fabric Loader **0.19.5 or newer**
+- Fabric API built specifically for your Minecraft version
 
-- Minecraft 26.2 → `minecraft-oneblock-autotoolswitcher-1.0.0+mc26.2.jar`
-- Minecraft 26.3 → `minecraft-oneblock-autotoolswitcher-1.0.0+mc26.3.jar`
+#### 3. Put the files in `mods` and launch the game
 
-Do not use the `-sources.jar` file
+Your `mods` folder should contain:
 
-#### 4. Put the mod in your Minecraft `mods` folder
+- the Fabric API JAR
+- one AutoToolSwitcher JAR matching your Minecraft version
 
 The default Windows location is usually
 
@@ -172,15 +183,11 @@ The default Windows location is usually
 %AppData%\.minecraft\mods
 ```
 
-Create the `mods` folder if it does not exist
+If you use a launcher with separate instances, use that instance's own `mods` folder.
 
-If you use a launcher with separate instances use that instance's own `mods` folder instead
+Launch Minecraft with the Fabric profile, keep suitable tools in your hotbar and hold the left mouse button on a block. AutoToolSwitcher will select the most suitable tool automatically.
 
-#### 5. Launch Minecraft with Fabric
-
-Open your world or OneBlock server and hold the left mouse button on a block
-
-The mod will choose the most suitable hotbar tool automatically
+If Minecraft reports an incompatible mod during startup, first check that the AutoToolSwitcher JAR, Fabric API and Minecraft versions all match.
 
 ### Supported Minecraft versions
 
