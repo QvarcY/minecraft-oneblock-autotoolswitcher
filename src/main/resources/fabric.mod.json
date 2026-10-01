@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "oneblock_autotoolswitcher",
+  "version": "${version}",
+  "name": "Minecraft OneBlock AutoToolSwitcher",
+  "description": "A lightweight client-side Fabric mod that selects the best hotbar tool for the block you are mining",
+  "authors": [
+    "QvarcY"
+  ],
+  "contact": {
+    "homepage": "https://github.com/QvarcY",
+    "sources": "https://github.com/QvarcY/minecraft-oneblock-autotoolswitcher",
+    "issues": "https://github.com/QvarcY/minecraft-oneblock-autotoolswitcher/issues"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "io.github.qvarcy.oneblockautotoolswitcher.client.OneBlockAutoToolSwitcherClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
