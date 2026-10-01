@@ -15,7 +15,9 @@
 
 > Lightweight client-side Fabric mod for OneBlock players who are tired of doing pickaxe → axe → shovel → pickaxe gymnastics every few seconds
 
-**Current development target:** Minecraft 26.3 · Fabric Loader 0.19.5+ · Java 25
+**Current development target:** Minecraft 26.2 · Fabric Loader 0.19.5+ · Java 25
+
+Minecraft 26.2 has been validated on a real multiplayer OneBlock server · Minecraft 26.3 support is planned as a separate compatible build
 
 ---
 
@@ -42,11 +44,11 @@ Tas radīts OneBlock spēles režīmam kur viens un tas pats bloks nepārtraukti
 
 #### 1. Uzstādi Fabric Loader
 
-Uzstādi Fabric Loader Minecraft 26.3 versijai
+Uzstādi Fabric Loader Minecraft 26.2 versijai
 
 #### 2. Uzstādi Fabric API
 
-Lejupielādē Fabric API versiju kas paredzēta Minecraft 26.3 un ievieto to `mods` mapē
+Lejupielādē Fabric API versiju kas paredzēta Minecraft 26.2 un ievieto to `mods` mapē
 
 #### 3. Lejupielādē AutoToolSwitcher
 
@@ -69,6 +71,11 @@ Ja izmanto atsevišķu launcher profilu vai citu launcher tad izmanto konkrētā
 Atver pasauli vai OneBlock serveri un turi nospiestu kreiso peles pogu uz bloka
 
 Mods izvēlēsies piemērotāko rīku no hotbar
+
+### Atbalstītās Minecraft versijas
+
+- ✅ Minecraft 26.2 — pašreizējais primārais un testējamais builds
+- 🕒 Minecraft 26.3 — plānots atsevišķs saderīgs builds pēc 26.2 pārbaudes uz reāla OneBlock servera
 
 ### Vadība
 
@@ -127,11 +134,11 @@ It was built for OneBlock where the same block keeps turning into completely dif
 
 #### 1. Install Fabric Loader
 
-Install Fabric Loader for Minecraft 26.3
+Install Fabric Loader for Minecraft 26.2
 
 #### 2. Install Fabric API
 
-Download the Fabric API build for Minecraft 26.3 and place it in your `mods` folder
+Download the Fabric API build for Minecraft 26.2 and place it in your `mods` folder
 
 #### 3. Download AutoToolSwitcher
 
@@ -154,6 +161,11 @@ If you use a launcher with separate instances use that instance's own `mods` fol
 Open your world or OneBlock server and hold the left mouse button on a block
 
 The mod will choose the most suitable hotbar tool automatically
+
+### Supported Minecraft versions
+
+- ✅ Minecraft 26.2 — current primary and testable build
+- 🕒 Minecraft 26.3 — planned as a separate compatible build after the 26.2 version is validated on a real OneBlock server
 
 ### Controls
 
