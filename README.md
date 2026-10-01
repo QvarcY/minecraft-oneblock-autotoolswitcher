@@ -19,6 +19,16 @@
 
 Minecraft 26.2 has been validated on a real multiplayer OneBlock server · Minecraft 26.3 support is planned as a separate compatible build
 
+## Demo
+
+**LV:** Reāls Minecraft 26.2 multiplayer OneBlock tests — AutoToolSwitcher automātiski pārslēdzas starp piemērotāko pickaxe axe un shovel kamēr uzbrukuma poga paliek nospiesta
+
+**EN:** Real Minecraft 26.2 multiplayer OneBlock test — AutoToolSwitcher automatically switches between the best available pickaxe axe and shovel while the attack button stays held
+
+<p align="center">
+  <img src="assets/minecraft-oneblock-autotoolswitcher-demo-mc26.2.gif" alt="Minecraft OneBlock AutoToolSwitcher multiplayer demo" width="800">
+</p>
+
 ---
 
 ## Latviski
