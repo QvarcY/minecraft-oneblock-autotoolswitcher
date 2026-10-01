@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/readme-hero.webp" alt="Minecraft OneBlock AutoToolSwitcher by QvarcY" width="100%">
+  <img src="assets/readme-hero.jpg" alt="Minecraft OneBlock AutoToolSwitcher by QvarcY" width="100%">
 </p>
 
 <p align="center">
