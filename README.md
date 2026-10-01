@@ -17,7 +17,7 @@
 
 **Current development target:** Minecraft 26.2 · Fabric Loader 0.19.5+ · Java 25
 
-Minecraft 26.3 support is planned as a separate compatible build after the 26.2 release is tested on real OneBlock servers
+Minecraft 26.2 has been validated on a real multiplayer OneBlock server · Minecraft 26.3 support is planned as a separate compatible build
 
 ---
 
